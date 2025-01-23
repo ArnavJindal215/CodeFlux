@@ -214,12 +214,12 @@ p {
     user-select: none;
 }
 
-.mystory {
+.about-info {
     margin: 50px;
     user-select: none;
 }
 
-.mystory img {
+.about-info img {
     width: 800px;
     height: 800px;
     object-fit: contain;
@@ -231,7 +231,7 @@ p {
     user-select: none;
 }
 
-.mystory p {
+.about-info p {
     width: 50%;
     height: 100%;
     padding: 20px;
