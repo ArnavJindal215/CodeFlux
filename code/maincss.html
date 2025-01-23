@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CodeFlux: Learn Coding Faster</title>
+    <script src="script.js"></script>
+    <link rel="icon" href="/resources/icons/browsertab_logo.png?v=1" sizes="32x32" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/code/style.css">
+    <link rel="stylesheet" href="/code/water.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    </head>
+        <header>
+            <a href="index.html">
+                <img src="/resources/images/logo.png">
+            </a>
+            <nav>
+                <button id="btn-home" ><a href="/code/index.html">Home</a></button>
+                <button id="btn-learn" style=" background: #782dad;
+                border-color: #b295d6;
+                transform: scale(1.05);"><a href="/code/learn.html">Learn</a></button>
+                <button id="btn-about" ><a href="/code/aboutus.html">About Us</a></button>
+            </nav>
+            <div class="email">
+                <a href="https://www.gmail.com" style="display: flex;" target="_blank">
+                    <img src="/resources/icons/mail.png">
+                    <h7>jindalarnav215@gmail.com</h7>
+                    <img src="/resources//icons/open-gmail.png" style="width: 10px; height: 10px; margin-left: 3px;">
+                </a>
+            </div>
+        </header>
+<body>
+    <div class="tutorial-bg">
+        <iframe src="https://codesandbox.io/embed/g576cz?view=editor+%2B+preview&module=%2Fstyles.css&expanddevtools=1"
+     style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="htmlcss-codeflux"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+        <h2>CSS Tutorial</h2> <p> Welcome to this comprehensive tutorial on CSS (Cascading Style Sheets). This guide will cover everything you need to know about CSS, from the basics to advanced topics. Whether you’re a beginner or want to deepen your understanding, this tutorial will guide you step-by-step. </p> <h2>Introduction to CSS</h2> <p>CSS is a style sheet language used to define the visual presentation of a web page. It controls the layout, colors, fonts, and overall appearance of HTML elements, making your website look aesthetically pleasing and structured.</p> <h3>Key Features:</h3> <ul> <li>Separates content (HTML) from design (CSS) for cleaner and easier-to-maintain code.</li> <li>Allows for styling HTML elements, including text, images, and layout components.</li> <li>Works seamlessly with HTML and JavaScript to create dynamic websites.</li> <li>Supports responsiveness and media queries for mobile-friendly designs.</li> <li>Enables advanced animations, transitions, and visual effects.</li> </ul> <h2>Setting Up Your Environment</h2> <p>To start writing CSS, you only need basic software and a browser.</p> <h3>Steps:</h3> <ol> <li>Install a code editor like <strong>Visual Studio Code</strong>, <strong>Atom</strong>, or <strong>Sublime Text</strong>.</li> <li>Create a new file and save it with a <code>.css</code> extension (e.g., <code>styles.css</code>).</li> <li>Link the CSS file to an HTML document using the <code>&lt;link&gt;</code> tag in the <code>&lt;head&gt;</code> section of your HTML.</li> <li>Use a modern web browser like <strong>Google Chrome</strong>, <strong>Firefox</strong>, or <strong>Microsoft Edge</strong> to preview your file.</li> </ol> <h2>Basic CSS Syntax</h2> <p>CSS rules are composed of selectors and declarations.</p> <pre> selector { property: value; } </pre> <h3>Example:</h3> <pre> h1 { color: blue; font-size: 30px; } </pre> <h2>CSS Selectors</h2> <h3>Basic Selectors:</h3> <ul> <li><strong>Element Selector:</strong> Selects HTML elements by their tag name (e.g., <code>h1</code>, <code>p</code>).</li> <li><strong>Class Selector:</strong> Selects HTML elements with a specific class (e.g., <code>.button</code>).</li> <li><strong>ID Selector:</strong> Selects a unique HTML element with a specific ID (e.g., <code>#header</code>).</li> </ul> <h3>Example:</h3> <pre> /* Element selector */ p { color: red; }
+/* Class selector */ .button { background-color: green; }
+
+/* ID selector */ #header { text-align: center; } </pre>
+
+<h2>Colors and Backgrounds</h2> <p>CSS allows you to define colors for text, backgrounds, borders, and more.</p> <h3>Color Properties:</h3> <ul> <li><code>color</code>: Sets the text color.</li> <li><code>background-color</code>: Sets the background color.</li> <li><code>background-image</code>: Sets an image as the background.</li> </ul> <h3>Example:</h3> <pre> body { background-color: #f0f0f0; }
+h1 { color: #333; }
+
+div { background-image: url('background.jpg'); } </pre>
+
+<h2>Text Styling</h2> <p>CSS offers various properties for styling text, including font, size, weight, and alignment.</p> <h3>Text Properties:</h3> <ul> <li><code>font-family</code>: Sets the font type.</li> <li><code>font-size</code>: Sets the font size.</li> <li><code>font-weight</code>: Sets the thickness of the text.</li> <li><code>text-align</code>: Sets the alignment of the text (e.g., left, center, right).</li> </ul> <h3>Example:</h3> <pre> p { font-family: 'Arial', sans-serif; font-size: 16px; font-weight: bold; text-align: center; } </pre> <h2>The Box Model</h2> <p>The CSS box model describes how the dimensions of an element are calculated, including padding, border, and margin.</p> <h3>Parts of the Box Model:</h3> <ul> <li><strong>Content:</strong> The actual content of the box (e.g., text, image).</li> <li><strong>Padding:</strong> Space between the content and the border.</li> <li><strong>Border:</strong> A border surrounding the padding (optional).</li> <li><strong>Margin:</strong> Space outside the border (optional).</li> </ul> <h3>Example:</h3> <pre> div { padding: 20px; border: 2px solid black; margin: 30px; width: 200px; } </pre> <h2>Layout Techniques</h2> <p>CSS provides multiple layout techniques to design your webpage, including Flexbox and Grid.</p> <h3>Flexbox:</h3> <p>Flexbox allows you to create flexible layouts that adapt to different screen sizes.</p> <h3>Example:</h3> <pre> .container { display: flex; justify-content: space-between; }
+.item { flex: 1; padding: 10px; } </pre>
+
+<h2>Responsive Design</h2> <p>Responsive design ensures that your website looks good on all screen sizes, including mobile, tablet, and desktop devices. You can achieve this using media queries.</p> <h3>Example:</h3> <pre> @media screen and (max-width: 600px) { body { background-color: lightblue; } } </pre> <h2>Best Practices</h2> <ul> <li>Use semantic HTML to make your CSS more meaningful.</li> <li>Keep your CSS organized by using comments and grouping related styles.</li> <li>Use external CSS files to keep your HTML clean and easier to maintain.</li> <li>Test your designs on multiple devices to ensure responsiveness.</li> <li>Use CSS variables for reusable values (e.g., colors, font sizes).</li> </ul>
+
+    </div>
+</body>
+</html>

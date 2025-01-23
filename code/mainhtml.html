@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CodeFlux: Learn Coding Faster</title>
+    <script src="script.js"></script>
+    <link rel="icon" href="/resources/icons/browsertab_logo.png?v=1" sizes="32x32" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/code/style.css">
+    <link rel="stylesheet" href="/code/water.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+    </head>
+        <header>
+            <a href="index.html">
+                <img src="/resources/images/logo.png">
+            </a>
+            <nav>
+                <button id="btn-home" ><a href="/code/index.html">Home</a></button>
+                <button id="btn-learn" style=" background: #782dad;
+                border-color: #b295d6;
+                transform: scale(1.05);"><a href="/code/learn.html">Learn</a></button>
+                <button id="btn-about" ><a href="/code/aboutus.html">About Us</a></button>
+            </nav>
+            <div class="email">
+                <a href="https://www.gmail.com" style="display: flex;" target="_blank">
+                    <img src="/resources/icons/mail.png">
+                    <h7>jindalarnav215@gmail.com</h7>
+                    <img src="/resources//icons/open-gmail.png" style="width: 10px; height: 10px; margin-left: 3px;">
+                </a>
+            </div>
+        </header>
+<body>
+   <div class="tutorial-bg">
+    <iframe src="https://codesandbox.io/embed/g576cz?view=editor+%2B+preview&module=%2Findex.html&expanddevtools=1"
+     style="width:100%; height: 500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="htmlcss-codeflux"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+<h2>HTML Tutorial</h2>
+<p>
+    Welcome to this comprehensive tutorial on HTML (HyperText Markup Language). This guide will cover everything you need to know about HTML, from the basics to advanced topics. Whether you’re a beginner or want to deepen your understanding, this tutorial will guide you step-by-step.
+</p>
+
+<h2>Introduction to HTML</h2>
+<p>HTML is the standard language used to create web pages. It provides the structure of a webpage and is the foundation of web development.</p>
+<h3>Key Features:</h3>
+<ul>
+    <li>Simple to learn and use.</li>
+    <li>Defines the structure and content of web pages.</li>
+    <li>Works seamlessly with CSS (Cascading Style Sheets) and JavaScript to create dynamic, styled websites.</li>
+    <li>Supported by all major web browsers.</li>
+    <li>Extensible with modern technologies like HTML5.</li>
+    <li>Allows the embedding of multimedia, forms, and interactivity.</li>
+</ul>
+
+<h2>Setting Up Your Environment</h2>
+<p>To start writing HTML, you only need basic software and a browser.</p>
+<h3>Steps:</h3>
+<ol>
+    <li>Install a code editor like <strong>Visual Studio Code</strong>, <strong>Atom</strong>, or <strong>Sublime Text</strong>.</li>
+    <li>Create a new file and save it with a <code>.html</code> extension (e.g., <code>index.html</code>).</li>
+    <li>Use a modern web browser like <strong>Google Chrome</strong>, <strong>Firefox</strong>, or <strong>Microsoft Edge</strong> to preview your file.</li>
+    <li>Optionally, install live server plugins to instantly preview changes.</li>
+</ol>
+<p>For advanced workflows, consider using version control tools like <strong>Git</strong> and hosting services like <strong>GitHub Pages</strong> or <strong>Netlify</strong>.</p>
+
+<h2>Basic HTML Structure</h2>
+<p>All HTML documents follow a basic structure:</p>
+<pre>
+&lt;!DOCTYPE html&gt; <!-- Specifies the HTML version -->
+&lt;html lang="en"&gt; <!-- Root element with language attribute -->
+  &lt;head&gt; <!-- Metadata about the page -->
+    &lt;meta charset="UTF-8"&gt; <!-- Sets character encoding -->
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <!-- For responsive design -->
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt; <!-- Content displayed on the webpage -->
+    &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+    &lt;p&gt;This is the main content of the page.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</pre>
+
+<h2>Common HTML Tags</h2>
+<h3>Text Formatting Elements:</h3>
+<ul>
+    <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Define headings of varying importance. Use <code>&lt;h1&gt;</code> for main titles and <code>&lt;h6&gt;</code> for subheadings.</li>
+    <li><code>&lt;p&gt;</code>: Introduces paragraphs for blocks of text.</li>
+    <li><code>&lt;strong&gt;</code>: Emphasizes text, typically rendering it bold.</li>
+    <li><code>&lt;em&gt;</code>: Emphasizes text with italics.</li>
+    <li><code>&lt;mark&gt;</code>: Highlights text with a yellow background.</li>
+    <li><code>&lt;blockquote&gt;</code>: Indicates a long quotation.</li>
+    <li><code>&lt;code&gt;</code>: Displays inline code snippets.</li>
+    <li><code>&lt;pre&gt;</code>: Displays preformatted text.</li>
+</ul>
+
+<h2>Attributes in HTML</h2>
+<p>Attributes provide additional information about an element. They are always included in the opening tag and have a name-value pair.</p>
+<h3>Examples:</h3>
+<ul>
+    <li><code>&lt;a href="https://example.com" target="_blank"&gt;Visit Example&lt;/a&gt;</code>: The <code>href</code> attribute specifies the URL, and <code>target="_blank"</code> opens the link in a new tab.</li>
+    <li><code>&lt;img src="image.jpg" alt="A descriptive text" width="500" height="300"&gt;</code>: The <code>alt</code> attribute provides alternative text for screen readers, and <code>width</code> and <code>height</code> control the image size.</li>
+    <li><code>&lt;input type="text" placeholder="Enter your name"&gt;</code>: The <code>placeholder</code> attribute shows a hint text inside the input box.</li>
+</ul>
+
+<h2>Forms and Inputs</h2>
+<p>Forms collect user input through various controls like text boxes, buttons, and checkboxes.</p>
+<h3>Example:</h3>
+<pre>
+&lt;form action="submit.php" method="POST"&gt;
+  &lt;label for="username"&gt;Username:&lt;/label&gt;
+  &lt;input type="text" id="username" name="username" required&gt;
+  
+  &lt;label for="password"&gt;Password:&lt;/label&gt;
+  &lt;input type="password" id="password" name="password" required&gt;
+
+  &lt;label&gt;Gender:&lt;/label&gt;
+  &lt;input type="radio" name="gender" value="male" checked&gt; Male
+  &lt;input type="radio" name="gender" value="female"&gt; Female
+
+  &lt;label&gt;Hobbies:&lt;/label&gt;
+  &lt;input type="checkbox" name="hobbies" value="reading"&gt; Reading
+  &lt;input type="checkbox" name="hobbies" value="traveling"&gt; Traveling
+
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+</pre>
+
+<h2>Semantic HTML</h2>
+<p>Semantic HTML uses elements that convey meaning. It improves readability and accessibility for developers and users.</p>
+<h3>Common Semantic Elements:</h3>
+<ul>
+    <li><code>&lt;header&gt;</code>: Represents the introductory content of a document or section.</li>
+    <li><code>&lt;article&gt;</code>: Defines a self-contained piece of content.</li>
+    <li><code>&lt;aside&gt;</code>: Contains content related to the main content, such as sidebars.</li>
+    <li><code>&lt;section&gt;</code>: Groups related content together.</li>
+    <li><code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code>: Display media with captions.</li>
+    <li><code>&lt;time&gt;</code>: Represents a specific date or time.</li>
+</ul>
+
+<h2>Multimedia: Images, Audio, and Video</h2>
+<p>HTML supports embedding multimedia elements.</p>
+<h3>Examples:</h3>
+<pre>
+&lt;img src="image.jpg" alt="Beautiful scenery" loading="lazy"&gt;
+
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+  Your browser does not support the audio element.
+&lt;/audio&gt;
+
+&lt;video controls width="600" height="400"&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+  Your browser does not support the video element.
+&lt;/video&gt;
+</pre>
+
+<h2>Best Practices</h2>
+<ul>
+    <li>Use semantic tags to enhance accessibility.</li>
+    <li>Optimize multimedia elements by using appropriate file formats and sizes.</li>
+    <li>Use comments to annotate code for better readability.</li>
+    <li>Keep indentation consistent for cleaner code.</li>
+    <li>Validate your code with tools like the <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator</a>.</li>
+</ul>
+</div>
+
+</body>
+</html>
