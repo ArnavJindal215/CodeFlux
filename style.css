@@ -242,7 +242,7 @@ p {
 
 .aboutus_divider {
     position: absolute;
-    top: 59%;
+    top: 56%;
     left: 75px;
     width: 200px;
     height: 5px;
@@ -638,5 +638,74 @@ iframe{
 }
 .ourmission p{
     width: 50%;
+}
+@media (max-width: 1024px) {
+    .card {
+        gap: 80px;
+    }
+
+    .box {
+        width: 35vw;
+        height: 45vh;
+    }
+
+    .box .content h1 {
+        font-size: clamp(1.5rem, 5vw, 1.7rem);
+    }
+
+    .box .content p,
+    .box .content h3 {
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 12px;
+    }
+
+    .card {
+        gap: 40px;
+    }
+
+    .box {
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .box .content {
+        padding: 10px 15px;
+    }
+
+    .box .content h1 {
+        font-size: clamp(1.3rem, 3vw, 1.4rem);
+    }
+
+    .box .content p,
+    .box .content h3 {
+        font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 70vw;
+        height: 35vh;
+        padding: 10px;
+    }
+
+    .content {
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 1.3rem;
+    }
+
+    .content p,
+    .content h3 {
+        font-size: 1rem;
+    }
 }
 
