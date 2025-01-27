@@ -708,4 +708,149 @@ iframe{
         font-size: 1rem;
     }
 }
+@media (max-width: 1024px) {
+    .card {
+        gap: 80px;
+    }
+
+    .box {
+        width: 35vw;
+        height: 45vh;
+    }
+
+    .box .content h1 {
+        font-size: clamp(1.5rem, 5vw, 1.7rem);
+    }
+
+    .box .content p,
+    .box .content h3 {
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 12px;
+    }
+
+    .card {
+        gap: 40px;
+    }
+
+    .box {
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .box .content {
+        padding: 10px 15px;
+    }
+
+    .box .content h1 {
+        font-size: clamp(1.3rem, 3vw, 1.4rem);
+    }
+
+    .box .content p,
+    .box .content h3 {
+        font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 70vw;
+        height: 35vh;
+        padding: 10px;
+    }
+
+    .content {
+        gap: 5px;
+        padding: 10px;
+    }
+
+    .content h1 {
+        font-size: 1.3rem;
+    }
+
+    .content p,
+    .content h3 {
+        font-size: 1rem;
+    }
+}
+
+/* For portrait orientation */
+@media (orientation: portrait) {
+    .box {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .content {
+        padding: 15px;
+    }
+
+    .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .content p,
+    .content h3 {
+        font-size: 1rem;
+    }
+}
+
+/* For landscape orientation */
+@media (orientation: landscape) {
+    .box {
+        width: 50vw;
+        height: 60vh;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .content p,
+    .content h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* For all devices below 480px in portrait mode */
+@media (max-width: 480px) and (orientation: portrait) {
+    .box {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .content h1 {
+        font-size: 1.2rem;
+    }
+
+    .content p,
+    .content h3 {
+        font-size: 0.9rem;
+    }
+}
+
+/* For all devices below 480px in landscape mode */
+@media (max-width: 480px) and (orientation: landscape) {
+    .box {
+        width: 60vw;
+        height: 30vh;
+    }
+
+    .content h1 {
+        font-size: 1.1rem;
+    }
+
+    .content p,
+    .content h3 {
+        font-size: 0.8rem;
+    }
+}
 
