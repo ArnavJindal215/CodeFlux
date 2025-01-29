@@ -639,74 +639,126 @@ iframe{
 .ourmission p{
     width: 50%;
 }
-/* Home Page Fixes */
-/* Default styles optimized for a 13-inch MacBook */
+/* For MacBook 13-inch (Retina Display) */
+@media (max-width: 1440px) {
+    .aboutus_divider2 {
+        top: 112%; /* Lowering the divider slightly */
+    }
+    
+    .box {
+        width: 300px; /* Reduce box size */
+        height: 400px;
+    }
 
-/* For larger screens (desktops, large laptops) */
-@media screen and (min-width: 1440px) {
-    body {
-        font-size: 18px;
+    .box .content h1 {
+        font-size: 1.8rem; /* Reduce heading size */
     }
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-}
 
-/* For medium screens (standard laptops, tablets in landscape mode) */
-@media screen and (max-width: 1366px) {
-    .container {
-        max-width: 1100px;
+    .box .content p {
+        font-size: 1rem; /* Adjust paragraph text */
     }
-}
-/* Responsive Design */
-@media (max-width: 1024px) {
-    header {
-        flex-direction: column;
-        height: auto;
+
+    .extrabtns button {
+        width: 180px; /* Increase button size */
         padding: 10px;
     }
 
-    header img {
-        height: 100px;
-        margin: 10px 0;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    button {
-        width: 80px;
-        margin: 10px 5px;
+    .extrabtns {
+        top: 57%;
     }
 }
 
+/* Medium Screens (Tablets, Small Laptops) */
+@media (max-width: 1024px) {
+    .aboutus_divider2 {
+        top: 115%;
+    }
+
+    .box {
+        width: 280px;
+        height: 380px;
+    }
+
+    .box .content h1 {
+        font-size: 1.6rem;
+    }
+
+    .box .content p {
+        font-size: 0.9rem;
+    }
+
+    .extrabtns button {
+        width: 160px;
+        padding: 8px;
+    }
+
+    .extrabtns {
+        top: 58%;
+    }
+}
+
+/* Mobile Screens */
 @media (max-width: 768px) {
-    header {
-        padding: 15px;
+    .aboutus_divider2 {
+        top: 120%;
     }
 
-    header img {
-        height: 80px;
+    .box {
+        width: 250px;
+        height: 350px;
     }
 
-    button {
-        width: 70px;
-        font-size: 14px;
+    .box .content h1 {
+        font-size: 1.4rem;
+    }
+
+    .box .content p {
+        font-size: 0.85rem;
+    }
+
+    .extrabtns button {
+        width: 140px;
+        padding: 6px;
+    }
+
+    .extrabtns {
+        top: 60%;
+        left: 35%;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
+/* Small Mobile Screens */
 @media (max-width: 480px) {
-    header img {
-        height: 60px;
+    .aboutus_divider2 {
+        top: 125%;
     }
 
-    button {
-        width: 60px;
+    .box {
+        width: 200px;
+        height: 300px;
+    }
+
+    .box .content h1 {
+        font-size: 1.2rem;
+    }
+
+    .box .content p {
+        font-size: 0.8rem;
+    }
+
+    .extrabtns button {
+        width: 120px;
+        padding: 5px;
         font-size: 12px;
-        padding: 4px;
+    }
+
+    .extrabtns {
+        top: 62%;
+        left: 30%;
     }
 }
+
 
 
