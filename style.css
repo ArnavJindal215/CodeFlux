@@ -640,3 +640,66 @@ iframe{
     width: 50%;
 }
 /* Home Page Fixes */
+/* Default styles optimized for a 13-inch MacBook */
+
+/* For larger screens (desktops, large laptops) */
+@media screen and (min-width: 1440px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* For medium screens (standard laptops, tablets in landscape mode) */
+@media screen and (max-width: 1366px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+/* For tablets (portrait mode) and smaller laptops */
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 90%;
+    }
+    .sidebar {
+        display: none;
+    }
+    .content {
+        width: 100%;
+    }
+}
+
+/* For mobile devices (phones) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu {
+        display: none;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+/* For small mobile screens */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 5px;
+    }
+    .button {
+        width: 100%;
+    }
+}
+
