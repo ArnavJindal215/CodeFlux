@@ -93,13 +93,13 @@ a {
     align-items: center;
     text-align: center;
     width: 100%;
-    margin-top: 80px; /* Pushes everything down from the navbar */
+    margin-top: 120px; /* Pushes everything down from the navbar */
     flex-direction: column;
     user-select: none;
 }
 tagline h1{
     font-weight: 800px;
-    font-size: 95px;
+    font-size: 100px;
 }
 
 .subtag {
