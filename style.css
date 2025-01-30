@@ -769,6 +769,55 @@ iframe{
         left: 30%;
     }
 }
+@media (max-width: 768px) {
+    /* About Us Page: Hide images and make text take full width */
+    .about-info img {
+        display: none;
+    }
+    
+    .about-info p {
+        width: 100%;
+    }
+
+    /* Learn Page: Prevent content from overflowing */
+    .box {
+        width: 90%; /* Adjust width to fit smaller screens */
+        height: auto; /* Allow height to adjust dynamically */
+        padding: 15px;
+    }
+
+    .box .content h1 {
+        font-size: 1.4rem;
+    }
+
+    .box .content p,
+    .box .content h3 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .about-info p {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    .box {
+        width: 95%;
+        height: auto;
+    }
+
+    .box .content h1 {
+        font-size: 1.2rem;
+    }
+
+    .box .content p,
+    .box .content h3 {
+        font-size: 0.8rem;
+    }
+}
+
 
 
 
