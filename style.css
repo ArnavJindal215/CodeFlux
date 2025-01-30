@@ -97,6 +97,10 @@ a {
     flex-direction: column;
     user-select: none;
 }
+tagline h1{
+    font-weight: bolder;
+    font-size: 70px;
+}
 
 .subtag {
     text-align: center;
@@ -121,7 +125,6 @@ a {
     padding: 13px;
     color: white;
     border: none;
-    background-color: #e64276;
     border-radius: 5px;
     font-weight: 600;
     cursor: pointer;
