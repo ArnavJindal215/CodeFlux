@@ -96,6 +96,8 @@ a {
     margin-top: 120px; /* Pushes everything down from the navbar */
     flex-direction: column;
     user-select: none;
+    font-weight: 600 !important;
+    font-size: 70px !important;
 }
 .tagline span {
     font-weight: 600 !important;
