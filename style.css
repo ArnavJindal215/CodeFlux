@@ -314,6 +314,7 @@ p {
     background-color: transparent;
     display: inline-block;
     width: 100%;
+    -webkit-scrollbar { display: none; }
 }
 
 .box {
@@ -335,20 +336,24 @@ p {
     transition: all 0.3s ease;
     display: inline-block;
     width: 100%;
+    -webkit-scrollbar { display: none; }
 }
 .card {
     display: block; /* Keep the existing display property */
     white-space: nowrap; /* Prevent wrapping */
-    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+    overflow-x: auto;
+    -webkit-scrollbar { display: none; }/* Allow horizontal scrolling if necessary */
 }
 .card p{
     white-space: wrap;
+    -webkit-scrollbar { display: none; }
 }
 
 .box {
     display: inline-block; /* Keep the existing display property */
     vertical-align: top; /* Align boxes properly */
-    margin-right: 10px; /* Add spacing */
+    margin-right: 10px;
+    -webkit-scrollbar { display: none; }/* Add spacing */
 }
 
 
@@ -505,12 +510,14 @@ p {
     transition: all 0.3s ease;
     position: absolute;
     top: 70%;
+    -webkit-scrollbar { display: none; }
 }
 
 .card-btn:hover {
     transform: scale(1.05);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
     background: linear-gradient(45deg, #ff6bcb, #9e4dcc);
+    -webkit-scrollbar { display: none; }
 }
 .content{
     color: white;
