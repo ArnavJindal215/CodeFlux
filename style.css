@@ -98,8 +98,9 @@ a {
     user-select: none;
 }
 .tagline span {
-    font-weight: 600;  /* Fixed */
-    font-size: 70px;
+    font-weight: 600 !important;
+    font-size: 70px !important;
+}
 }
 
 
