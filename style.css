@@ -130,26 +130,31 @@ a {
 
 
 
-.extrabtns img {
-    width: 20px;
-    height: auto;
-    margin-left: 10px;
+.extrabtns {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px; /* Adds space between subtext and buttons */
 }
 
 .extrabtns button {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 150px;
-    margin: 5px;
     padding: 13px;
     color: white;
+    border: none;
+    background-color: #e64276;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
 }
-
-.extrabtns {
-    position: absolute;
-    display: flex;
-    gap: 25px;
-    top: 55%;
-    left: 41%;
+.extrabtns img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
 }
 
 #getstarted_btn button {
