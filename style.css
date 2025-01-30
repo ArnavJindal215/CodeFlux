@@ -97,7 +97,7 @@ a {
     flex-direction: column;
     user-select: none;
 }
-tagline h1{
+.tagline h1{
     font-weight: 800px;
     font-size: 100px;
 }
