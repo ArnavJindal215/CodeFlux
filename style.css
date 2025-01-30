@@ -97,9 +97,9 @@ a {
     flex-direction: column;
     user-select: none;
 }
-.tagline h1 {
-    font-weight: 800;  /* Fixed */
-    font-size: 100px;
+.tagline span {
+    font-weight: 600;  /* Fixed */
+    font-size: 70px;
 }
 
 
