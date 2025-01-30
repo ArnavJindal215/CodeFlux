@@ -98,43 +98,18 @@ a {
     user-select: none;
 }
 
-.tagline h1 {
-    font-size: 70px;
-    font-weight: 600;
-    letter-spacing: -0.2rem;
-    user-select: none;
-    line-height: 1.1; /* Reduces space between lines */
-}
-
-#tagline1 {
-    background-image: linear-gradient(45deg, #e64276, #782dad);
-    background-clip: text;
-    color: transparent;
-}
-
-#tagline2 {
-    color: #FFFFFF;
-}
-
-#tagline3 {
-    color: #FFFFFF;
-    margin-top: -10px; /* Moves CodeFlux closer */
-}
-
 .subtag {
     text-align: center;
     width: 100%;
-    margin-top: 20px; /* Adds space between tagline and subtext */
+    margin-top: -10px; /* Moves subtext closer to tagline */
     user-select: none;
 }
-
-
 
 .extrabtns {
     display: flex;
     justify-content: center;
-    gap: 25px;
-    margin-top: 30px; /* Adds space between subtext and buttons */
+    gap: 20px;
+    margin-top: 20px; /* Moves buttons closer to the subtext */
 }
 
 .extrabtns button {
@@ -151,6 +126,8 @@ a {
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
 }
+
+
 .extrabtns img {
     width: 20px;
     height: auto;
