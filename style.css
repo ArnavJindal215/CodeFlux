@@ -98,10 +98,12 @@ a {
     user-select: none;
     font-weight: 600 !important;
     font-size: 70px !important;
+    letter-spacing: -0.2rem;
 }
 .tagline span {
     font-weight: 600 !important;
     font-size: 70px !important;
+    letter-spacing: -0.2rem;
 
 }
 
