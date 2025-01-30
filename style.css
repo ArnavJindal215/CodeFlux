@@ -90,10 +90,10 @@ a {
 .tagline {
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 25%;
-    width: 100%;
+    align-items: center;
     text-align: center;
+    width: 100%;
+    height: 30vh; /* Keeps the tagline vertically positioned */
     user-select: none;
 }
 
@@ -119,13 +119,14 @@ a {
 
 #tagline3 {
     color: #FFFFFF;
+    display: block;
+    text-align: center;
 }
 
 .subtag {
     text-align: center;
-    position: absolute;
-    top: 41%;
     width: 100%;
+    margin-top: 20px; /* Adds space between tagline and subtext */
     user-select: none;
 }
 
