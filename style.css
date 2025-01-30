@@ -98,8 +98,8 @@ a {
     user-select: none;
 }
 tagline h1{
-    font-weight: bolder;
-    font-size: 70px;
+    font-weight: 800px;
+    font-size: 95px;
 }
 
 .subtag {
@@ -126,7 +126,6 @@ tagline h1{
     color: white;
     border: none;
     border-radius: 5px;
-    font-weight: 600;
     cursor: pointer;
 }
 
